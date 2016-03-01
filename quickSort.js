@@ -13,6 +13,8 @@ function quickSort(arr){
 	return []//returning an empty array when length of array is reduced below 1
 }
 var arr = [];
+
+//function to generate 10 random numbers to be sorted
 for (var i = 0; i < 10; ++i) {
 arr[i] = Math.floor((Math.random()*100)+1);
 }
